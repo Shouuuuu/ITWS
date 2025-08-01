@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>ITWS UNIT 3</title>
+  <link rel="icon" href="icon1.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<h1 class="ut">UNIT 3: BUILD A WEBSITE WITH HTML5</h1>
+
+<h1 class="uh1">What is CSS?</h1>
+  <p class="con">Cascading Style Sheets, or CSS, <span class="hlt">is a scripting language used to characterize the layout of an HTML document.</span> CSS lets web developers determine how HTML components are to be viewed on various platforms and screen sizes.</p>
+
+<h2 class="uh1">CSS Techniques for Responsive Design</h2>
+
+  <p class="con"> One of the most essential techniques is the use of media queries, <span class="hlt">which allow developers to apply different styles based on the characteristics of the device, such as its screen size or resolution.</span> Another powerful technique in responsive design is <span class="hlt">the use of CSS Grid and Flexbox,</span> which help create flexible, fluid layouts. <span class="hlt">CSS Grid</span> allows developers to define complex grid structures that automatically adjust based on the available space, while <span class="hlt">Flexbox</span> is ideal for aligning items and creating responsive containers that adjust to their content</p>
+
+<h1 class="u1">CSS Example</h1>
+ <img src = "images/css1.png" class="internet">
+
+<h2 class="uh1">Inserting Lists</h2>
+   <p class="con">There are <span class="hlt">2 kinds of lists in HTML:</span> <b>unordered</b> or bulleted lists and <b>ordered</b> or numbered lists.</p>
+   <img src="images/list.jpg" class="big">
+   <img src="images/olist.webp" class="big">
+   
+   <p class="con">The <span class="hlt">&lt;ul&gt; and &lt;ul&gt; tags are used to create unordered or bulleted lists.</span> The <span class="hlt">&lt;ol&gt; and &lt;ol&gt; tags are used to create ordered lists or numbered lists.</span> Items in the lists are added by using the <span class="hlt">&lt;li&gt; and &lt;/li&gt; tags.</span></p> 
+   
+
+  <h2 class="uh1">Ordered Lists</h2>
+  
+    <p class="con"> An ordered list, sometimes called a numbered list, is <span class="hlt">useful for presenting a series of steps that the user should perform in order.</span> To create an ordered list, you use the <span class="hlt">lt;ol&gt;and &lt;/ol&gt; tag pair.</span> The ordered list that you create will consist of two or more items. To specify each list item, which is an entry within an ordered or unordered list, you use the &lt;li&gt; and &lt;/li&gt; tag pair</p>
+    
+    <p class="con">By default, when you create an ordered list, your browser can use the numbers 1, 2, 3, and so on to precede each of the list items. Depending on the list content, <span class="hlt">there can be instances when you have to use letters or even Roman numerals for each list item.</span> To control the type of numbering the browser uses within an ordered list, you can use a CSS property list-style-type.</p>
+
+<h1 class="u1">EXAMPLE:</h1>
+    <img src="images/olist.webp" class="internet">
+    
+<h2 class="uh1">Creating Unordered List</h2>
+    <p class="con"> An unordered list, often called a bulleted list, <span class="hlt">contains a list of items in no particular order,</span> such as a grocery lists, features for a new product, or browsers that support a particular HTML tag or attribute. To create an unordered list within a webpage, you <span class="hlt">use the ul and ul tag pair.</span> Again to identify the items within the list, you can <span class="hlt">use the li and li list item tag pair.</span></p>
+    
+<h1 class="u1">EXAMPLE:</h1>
+    <img src="images/list.jpg" class="internet">
+
+<h1 class="uh1">The CSS list-style-type Property</h1>
+    
+<p class="con">The <span class="hlt">list-style-type property is used to define the style of the list item marker</span> in unordered lists. The <span class="hlt">disc value</span> sets the list item marker to a <span class="hlt">bullet.</span> The <span class="hlt">circle value</span> sets the list item marker to a <span class="hlt">circle.</span>  The <span class="hlt">square value</span> sets the list item marker to a <span class="hlt">square.</span> The <span class="hlt">none value will not display markers on list items</span></p>
+ <img src="images/ult.png" class="internet">
+ 
+ <h1 class="uh1">The list-style-image Property</h1>
+<p class="con">The list-style-image property <span class="hlt">used to specify an image as the list item marker in unordered lists.</span> property in CSS is used to replace the default bullet points in a list (&lt;ul&gt; or &lt;ol&gt;) with a custom image. Instead of a plain circle or number, you can use an image like a checkmark, star, or icon by providing its URL. <span class="hlt">This makes lists more visually appealing and personalized.</span> It's important to use small-sized images so the list stays clean and aligned properly. If the image fails to load, browsers automatically fall back to showing a regular bullet.</p>
+ 
+ <h1 class="u1">EXAMPLE: </h1>
+ <img src="images/uimg.png" class="internet">
+ 
+<h1 class="uh1">CSS list-style-position Property</h2></p>
+
+<p class="con">The list-style-position property <span class="hlt">specifies the position of the list item marker in unordered lists.</span> The outside value means that the bullet points will be outside the list item. The start of each line of a list item will be aligned vertically. The inside value means that the bullet points will be inside the list item. The list item will be part of the text and push the text at the start.</p>
+
+<img src ="images/pos.webp" class="internet">
+
+<h1 class="uh1">CSS list Shorthand Property</h1>
+
+<p class="con">The list-style shorthand property in CSS <span class="hlt">lets you set list-style-type, list-style-position, and list-style-image all at once, in any order.</span> It controls the bullet style, its position (inside or outside the text), and optionally replaces the bullet with a custom image. If some parts are missing, the browser uses default values.</p>
+
+<h2 class="uh1">Description Lists</h2>
+<p class="con">HTML also supports description lists.A description list is a list of terms, with a description of each term.</p>
+<img src="images/dt.jpg" class="internet">
+
+<h1 class="uh1">Semantics vs Non-Semantics Elements</h1>
+<p class="con">Semantic elements in HTML <span class="hlt">clearly describe their content and its meaning,</span> like &lt;header&gt;, &lt;section&gt;, &lt;article&gt;, or &lt;footer&gt;, making webpages more accessible and easier to understand for both users and search engines. Non-semantic elements, <span class="hlt">like &lt;div&gt; and &lt;span&gt;, have no inherent meaning and are used primarily for structure or styling, requiring additional attributes to give them context.</span> The key difference is that <span class="hlt">semantic elements provide meaningful context, improving accessibility and SEO, while non-semantic elements are purely functional and require extra work to convey purpose.</span></p>
+<img src="images/sem.jpg" class="internet">
+
+<h1 class="uh1">Semantics Elements</h1>
+
+<p class="con">Semantic elements are <span class="hlt">HTML tags that carry specific meanings about the content they enclose, helping both developers and search engines understand the structure of a web page.</span> Examples of semantic elements include header, article, footer, section, and nav.</p>
+
+<h1 class="u1">&lt;section&gt;</h1>
+<p class="con">The section element is <span class="hlt">used to define distinct sections of content within a webpage, often with a specific theme or topic.</span> It is commonly used for large portions of content like chapters, an introduction, or news items. For example, a webpage could include sections for the introduction, main content, and contact information.</p>
+<img src="images/section.png" class="internet">
+
+<h1 class="u1">&lt;article&gt;</h1>
+
+<p class="con">The article element <span class="hlt">specifies independent, self-contained content that could stand alone and be distributed separately from the rest of the webpage.</span> An article should make sense on its own and it should be possible to distribute it independently from the rest of the site.</p>
+<img src="images/article.png" class="internet">
+
+<h1 class="u1">&lt;footer&gt;</h1>
+<p class="con">The footer element <span class="hlt">defines a footer for a document or section, typically containing important information such as authorship details, copyright information, contact details, a sitemap, or links to related documents.</span></p>
+<img src="images/footer.png" class="internet">
+
+<h1 class="u1">&lt;nav&gt;</h1>
+
+<p class="con">The nav element is <span class="hlt">designed to contain a set of navigation links that guide users through a website’s primary sections.<span class="hlt"> It is important to note that not all links on a webpage should be placed inside a nav element; only major blocks of navigation links, such as a site’s menu or table of contents belong here.</p>
+    <img src="images/nav.png" class="internet">
+
+<h1 class="u1">&lt;aside&gt;</h1>
+<p class="con">The aside element is <span class="hlt">used to define content that is related to the surrounding content but can be considered as secondary or tangential.</span> It is often used for sidebars, pull quotes, advertisements, or other supplementary content that enhances the main topic of the page but doesn’t directly contribute to the primary narrative.</p>
+    <img src="images/aside.png" class="internet">
+
+<h1 class="u1">&lt;figure&gt; and &lt;figcaption&gt;</h1>
+<p class="con">The figure element is <span class="hlt">used to represent self-contained content, such as illustrations, diagrams, photos, or code listings, that is typically accompanied by a caption.</span> The figcaption element, <span class="hlt">which provides a description or caption for the content inside the figure element, can be placed either at the beginning or the end of the figure.</span></p>
+    <img src="images/ff.png" class="internet">
+    
+<h1 class="uh1">Non-Semantic Elements</h1>
+
+<p class="con">The non-semantic elements <span class="hlt">do not provide any intrinsic meaning about the content they contain.</span> These include tags like &lt;div&gt; and &lt;span&gt;, which are used primarily for layout and styling purposes rather than to convey content structure. </p>
+    <img src="images/nons.png" class="internet">
+    
+    <hr />
+    <a href="lessons.html" class="con">BACK TO LESSON PAGE</a>
+</body>
+</html>

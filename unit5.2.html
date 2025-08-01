@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>ITWS UNIT 5.2</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="icon1.png">
+  
+</head>
+
+<body>
+<h1 class="ut">UNIT 5.1: INSERTING HYPERLINKS</h1>
+
+<h1 class="uh1">Linking to Another Web Page within the Website</h1>
+
+<p class="con">A hyperlink or link <span class="hlt">is a word, phrase, or image that a user can click on to jump to a new document or a new section within the current document.</span> Links are found in nearly all web pages. Links allow users to click their way from page to page. </p>
+
+<p class="con">Links are defined with the <span class="hlt">&lt;a&gt; and &lt;/a&gt;</span> tags. The <span class="hlt">&lt;href&gt; attribute is used to specify the destination address of the link.</span></p>
+
+<h1 class="uh1">href Attribute</h1>
+<p class="con">The &lt;href&gt; (hypertext reference) attribute <span class="hlt">provides the address of the page or resource (its URL) to the browser.</span> The URL must always appear in quotation marks.</p>
+<p class="con">There are two ways to specify the URL:</p>
+
+<ul class="writing">
+ <li><strong>Absolute URLs</strong></li>
+<li><strong>Relative URLs</strong></li>
+</ul>
+
+<h1 class="uh1"> ABSOLUTE HYPERLINK </h1>
+
+<img src = "abshyperlink.png" alt="absolute hyperlink image" class="unit5"/>
+<h1 class="uh1"> RELATIVE HYPERLINK </h1>
+<img src = "relhyperlink.png" alt="relative hyperlink image" class="unit5"/>
+
+<h1 class="uh1">HTML Link Colors</h1>
+<p class="con">By default, links will appear as follows in all browsers:</p>
+
+<ul class="writing">
+<li>An <span class="hlt">unvisited link</span> is underlined and <span class="hlt">blue.</span></li>
+<li>A <span class="hlt">visited link</span> is underlined and <span class="hlt">purple.</span></li>
+<li>An <span class="hlt">active link</span> is underlined and <span class="hlt">red.</span></li>
+</ul>
+
+<h1 class="uh1">Pseudo-Class Selector</h1>
+
+<p class="con">A pseudo-class is <span class="hlt">used to define a special state of an element:</span></p>
+<ul class="writing">
+<li>Style visited and unvisited links differently.</li>
+<li>Style an element when a user moves the mouse over it.</li>
+</ul>
+
+<img src = "images/pseudoclass.png" alt="pseudo-class image" class="unit5"/>
+
+<h1 class="uh1">target Attribute</h3>
+<p class="con">The &lt;target&gt; attribute <span class="hlt">specifies where to open the link document:</span></p>
+
+<ul class="writing">
+<li><span class="hlt"><code>_blank</code></span> – opens the link document in a new window or tab.</li>
+<li><span class="hlt"><code>_self</code></span> – opens the link in the same window/tab as it was clicked (default).</li>
+</ul>
+ <img src = "images/targatt.png" alt="target attribute image" class="unit5"/>
+
+<h1 class="uh1">Use Image as Links</h1>
+
+<p class="con"><span class="hlt">Images can also be used as links.</span> Just put the &lt;img&gt; element inside the &lt;a&gt; and &lt;/a&gt; tags.</p>
+
+<p class="con">The &lt;title&gt; attribute <span class="hlt">specifies extra information about an element.</span> The information is most often shown as a tooltip text when the mouse moves over the element.</p>
+
+<img src = "images/imglinks.png" alt="image link" class="unit5"/>
+
+<h1 class="uh1">Linking within a Web Page</h1>
+
+<h1 class="u1">Bookmark Hyperlinks</h1>
+<p class="con">HTML bookmarks are <span class="hlt">used to allow readers to jump to specific parts of a web page.</span> Bookmarks can be useful if a web page is very long. Linking to a specific point in the page is also known as linking to a document fragment.</p>
+
+<h1 class="uh1">Step 1: Identifying the Destination</h1>
+
+<p class="con">To create a destination, <span class="hlt">use the <code>#id</code> attribute to give the target element in the document a unique name.</span> In web lingo, this is the fragment identifier.</p>
+<img src = "images/iddesti.png" alt="ID destination" class="unit5"/>
+
+<h1 class="uh1">Step 2: Linking to the Destination</h4>
+<p class="con">IDs are called by <span class="hlt">adding the pound (<code>#</code>) symbol to the ID name.</span></p>
+
+<img src = "images/linkdesti.png" alt="link destination" class="unit5"/>
+
+<h1 class="uh1">Navigation Menu</h1>
+
+<p class="con">Enhance the look and functionality of your website by styling your HTML lists into a sleek horizontal or navigation menu. With a few CSS declarations, your website can become more user-friendly and visually appealing.</p>
+
+<p class="con">The <span class="hlt">padding element</span> is used to create space around an element’s content, inside of any defined borders.</p>
+
+<h1 class="uh1">Linking to an e-Mail Address</h1>
+
+<h1 class="u1">mailto: Protocol</h1>
+
+<p class="con">Use the <span class="hlt"><code>mailto:</code> protocol to direct the link to an email address.</span> The browser opens a new mail message preaddressed to the designated mail program (Outlook, Gmail, or Thunderbird).</p>
+
+<img src = "images/mailtoprot.png" alt="mailto protocol" class="unit5"/>
+
+<hr />
+<a href="lessons.html" class="con">BACK TO LESSON PAGE</a>
+
+</body>
+</html>

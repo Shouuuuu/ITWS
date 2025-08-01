@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ITWS UNIT 4</title>
+    
+    <link rel="stylesheet" href="style.css">
+<link rel="icon" href="icon1.png">
+
+</head>
+
+<body>
+
+    <h1 class="ut">UNIT 4: STYLE A WEBSITE WITH CSS</h1>
+
+    <h1 class="uh1">What is a Cascading Style Sheet?</h1>
+    <p class="con">Cascading Style Sheets, or CSS, <span class="hlt">is a scripting language used to characterize the layout of an HTML document.</span> CSS lets web developers determine how HTML components are to be viewed on various platforms and screen sizes.</p>
+
+    <h1 class="u1">CSS Example:</h1>
+    
+    <pre class="con">
+Body {
+    Background-color: blue;
+}
+H1 {
+    Color: red;
+    Text-align: center;
+}
+    </pre>
+
+    <h1 class="uh1">Types of CSS</h1>
+
+    <ul class="writing">
+        <li>Inline CSS</li>
+        <li>Internal or Embedded CSS</li>
+        <li>External CSS</li>
+        <li>CSS Framework</li>
+    </ul>
+
+    <h1 class="u1">INLINE CSS</h1>
+
+    <p class="con">The style attribute can be used to set the style of a specific HTML element.Least recommended styling method because of the difficulty it brings in managing larger websites. Useful for testing and previewing changes. The syntax should be like this:
+    <span class="hlt">&lt;tagname style=”property:value”&gt;</span>
+    
+    <img src="images/inline.jpeg" class="internet">
+    
+    <h1 clas="u1">INTERNAL CSS</h1>
+    <p class="con">Internal CSS is <span class="hlt">a method of adding styling rules directly within an HTML document by using a &lt;style&gt; tag inside the &lt;head&gt; section.</span> It allows you to apply styles to all elements on a single page without affecting other pages. This method is useful when you want to design a specific page differently or when the styles are small and do not need to be reused elsewhere. However, if the website has multiple pages with the same design, internal CSS can become inefficient compared to external CSS.
+</p>
+    <img src="images/internal.jpeg" class="internet">
+    
+    <h1 class="u1">EXTERNAL CSS</h1>
+    
+    <p class="con">External CSS is <span class="hlt">a method where styling rules are written in a separate .css file and linked to the HTML using a &lt;link&gt; tag in the &lt;head&gt; section.</span> It helps keep the HTML clean, makes the design consistent across multiple pages, and allows easy updates by editing just one file.
+    </p>
+    
+    <img src="images/external.jpeg" class="internet">
+    
+    <h1 class="u1">CSS FRAMEWORKS</h1>
+    <p class="con">CSS frameworks are <span class="hlt">pre-prepared libraries of CSS code that make it faster and easier to design websites.</span> They provide ready-made styles for layout, typography, buttons, forms, and other elements, helping developers create responsive and attractive designs quickly. Popular CSS frameworks include Bootstrap, Tailwind CSS, and Foundation. They save time, ensure consistency, and often come with built-in mobile-friendly features.
+
+</p>
+    <h1 class="uh1">CSS Background Properties</h1>
+    <table border=”1” cellpadding=”5” class="con">
+        <tr>
+            <th>Property</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>background</td>
+            <td>Sets all the background properties in one declaration</td>
+        </tr>
+        <tr>
+            <td>background-color</td>
+            <td>Sets the background color of an element</td>
+        </tr>
+        <tr>
+            <td>background-image</td>
+            <td>Sets the background image for an element</td>
+        </tr>
+        <tr>
+            <td>background-repeat</td>
+            <td>Sets how a background image will be repeated</td>
+        </tr>
+        <tr>
+            <td>background-attachment</td>
+            <td>Sets whether a background image is fixed or scrolls with the rest of the page</td>
+        </tr>
+        <tr>
+            <td>background-position</td>
+            <td>Sets the starting position of a background image</td>
+        </tr>
+    </table>
+
+    <h1 class="uh1">CSS background-repeat</h1>
+    <ul class="writing">
+        <li> <span class="hlt">background-repeat: repeat;</span> - makes a background image repeat both horizontally and vertically to cover the entire element. This is the default behavior if no repeat option is set.</li>
+        <li><span class="hlt">background-repeat: repeat-x;</span>- is a CSS property that makes the background image repeat only horizontally (along the x-axis), but not vertically.</li>
+        <li><span class="hlt">background-repeat: repeat-y;</span> - makes the background image repeat only vertically (along the y-axis), but not horizontally.</li>
+        <li><span class="hlt">background-repeat: no-repeat;</span>- is a CSS property that prevents the background image from repeating. The image will only appear once, without being tiled or repeated in any direction.</li>
+        <li><span class="hlt">background-repeat: space;</span>- is a CSS property value that spaces the repeated background image evenly across the element. It ensures that the images do not overlap, and the remaining space is distributed evenly between them.</li>
+    </ul>
+
+    <h1 class="uh1">HTML Background Color</h1>
+        <p class="con">The background-color property <span class="hlt">defines the background color for an HTML element.</span></p>
+
+    <h1 class="u1">HTML Colors</h1>
+    <ul class="writing">
+        <p class="con">In HTML, <span class="hlt">a color can be defined by using color names or RGB, Hex and HSL values.</span></p>
+        <li>Color Name: tomato</li>
+        <li>RGB Value: rgb(255, 99, 71)</li>
+        <li>Hex Value: #ff6347</li>
+        <li>HSL Value: hsl(9, 100%, 64%)</li>
+    </ul>
+
+    <h1 class="uh1">Colors Names</h1>
+    <p class="con">HTML supports <span class="hlt">140 standard color names.</span></p>
+    <img src="images/colors.png" class="internet">
+    
+    <h1 class="uh1">RGB Value</h1>
+        <p class="con">In HTML, <span class="hlt">a color can be specified as an RGB value using this formula: rgb(red, green, blue).</span> Each parameter defines the intensity of the color between 0 and 255.</p>
+    <img src="images/rgb.png" class="internet">
+    
+    <ul class="writing">
+        <li>rgb(255, 0, 0) = red</li>
+        <li>rgb(60, 179, 113) = medium sea green</li>
+        <li>rgb(255, 165, 0) = orange</li>
+        <li>rgb(0, 0, 255) = blue</li>
+        <li>rgb(238, 130, 238) = violet</li>
+        <li>rgb(106, 90, 205) = slate blue</li>
+    </ul>
+
+    <h1 class="uh1">Hex Value</h1>
+        <p class="con">In HTML, <span class="hlt">a color can be specified using the hexadecimal value in the form: #rrggb.</span>For example, #00ffff is displayed as cyan.</p>
+    <img src="images/hex.png" class="internet">
+    
+    <ul class="writing">
+        <li>#ff0000 = red</li>
+        <li>#00ff00 = green</li>
+        <li>#ffff00 = yellow</li>
+        <li>#0000ff = blue</li>
+        <li>#ee82ee = violet</li>
+        <li>#ffa500 = orange</li>
+    </ul>
+
+    <h1 class="uh1">HSL Value</h1>
+    <ul class="writing">
+        <p class="con">In HTML, <span class="hlt">a color can be specified using hue, saturation, and lightness (HSL).</span></p>
+        <li>Hue: 0 = red, 120 = green, 240 = blue.</li>
+        <li>Saturation: 100% is pure color, 0% is gray.</li>
+        <li>Lightness: 0% is black, 100% is white, 50% is normal.</li>
+    </ul>
+    <img src="images/hsl.png" class="internet">
+    
+    <ul class="writing">
+        <li>hsl(0, 100%, 50%) = red</li>
+        <li>hsl(240, 100%, 50%) = blue</li>
+        <li>hsl(147, 50%, 47%) = dark sea green</li>
+        <li>hsl(300, 76%, 72%) = orchid</li>
+        <li>hsl(39, 100%, 50%) = orange</li>
+        <li>hsl(248, 53%, 58%) = medium slate blue</li>
+    </ul>
+
+    <h1 class="uh1">HSL Saturation Effect</h1>
+    <p class="con"><span class="hlt">A way of representing color.</span>When you adjust the saturation in the HSL model, you're changing how intense or vivid the color appears.</p>
+    <img src="images/satu.png" class="internet">
+   
+    <ul class="writing">
+        <li>hsl(0, 100%, 50%)</li>
+        <li>hsl(0, 80%, 50%)</li>
+        <li>hsl(0, 60%, 50%)</li>
+        <li>hsl(0, 40%, 50%)</li>
+        <li>hsl(0, 20%, 50%)</li>
+        <li>hsl(0, 0%, 50%)</li>
+    </ul>
+
+    <h1 class="uh1">HSL Lightness Effect</h1>
+    <p class="con">The lightness parameter controls the lightness or darkness of a color. <span class="hlt">Adjusting the lightness affects how bright or dark the color appears.</span></p>
+    <img src="images/light.png" class="internet">
+    
+    <ul class="writing">
+        <li>hsl(0, 100%, 0%)</li>
+        <li>hsl(0, 100%, 25%)</li>
+        <li>hsl(0, 100%, 50%)</li>
+        <li>hsl(0, 100%, 75%)</li>
+        <li>hsl(0, 100%, 90%)</li>
+        <li>hsl(0, 100%, 100%)</li>
+    </ul>
+
+    <h1 class="uh1">Background Image</h1>
+        <p class="con">The background-image property <span class="hlt">specifies an image to use as the background of an element.</span> By default, the image is repeated so it covers the entire element.The background image for a page can be set like this:</p>
+    
+    <p class="con">
+        <span class="hlt">&lt;body style=”background-image: url(‘paper.gif’)”&gt;<br>
+        &lt;/body&gt;</span>
+    </p>
+
+    <h1 class="uh1">Background Image – Repeat Horizontally or Vertically</h1>
+    
+        <p class="con">By default, the background-image property repeats an image both horizontally and vertically. If the image is repeated only horizontally (repeat-x), the background will look better:</p>
+    
+    <p class="con">
+        <span class="hlt">&lt;body style=”background-image: url(‘gradient.png’); background-repeat: repeat-x”&gt;<br>
+        &lt;/body&gt;</span>
+    </p>
+
+    <h1 class="uh1">Background Image – Set position and no-repeat</h1>
+        
+        <p class="con">The position of the image is specified by the background-position property:</p>
+    
+    <p class="con">
+        <span class="hlt">&lt;body style=”background-image: url(‘img_tree.png’); background-repeat: no-repeat; background-position: right top”&gt;<br>
+        &lt;/body&gt;</span>
+    </p>
+
+    <h1 class="uh1">Background-Attachment</h1>
+        <p class="con">The background-attachment property <span class="hlt">sets whether a background image is fixed or scrolls with the rest of the page.</span></p>
+
+
+    <table border=”1” class="con">
+        <tr>
+            <th>Value</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>scroll</td>
+            <td>The background scrolls along with the element. This is default</td>
+        </tr>
+        <tr>
+            <td>fixed</td>
+            <td>The background is fixed with regard to the viewport</td>
+        </tr>
+    </table>
+
+    <h1 class="uh1">HTML Text Color</h1>
+    
+        <p class="con">The color property <span class="hlt">defines the text color</span> for an HTML element. In HTML, you can change the text color using the CSS color property. <span class="hlt">You can specify the color using named colors (e.g., red, blue), hexadecimal values (e.g., #FF5733), or RGB values (e.g., rgb(255, 0, 0) for red). </span> Additionally, the hsl format allows you to adjust the hue, saturation, and lightness for more control over the color. By applying the color property to HTML elements, you can easily customize the appearance of text on a webpage.</p>
+
+    <h1 class="uh1">HTML Fonts</h1>
+    
+        <p class="con">The font-family property <span class="hlt">defines the fonts to be used</span> for an HTML element. There are many font-family you can use but here are some example:</p>
+         
+     <p class="con">body { <br>
+        <span class="hlt">font-family: 'Arial', sans-serif;</span><br>
+        }<br>
+ 
+        h1 {<br>
+        font-family: 'Georgia', serif;<br>
+        }<br>
+     </p>
+
+    <h1 class="uh1">HTML Text Size</h1>
+        <p class="con">The font-size property <span class="hlt">defines the text size for an HTML element.</span> The font-size value can be an absolute (pixels) or relative (em) size.</p>
+        
+        <p class="con"> p {<br>
+        font-size: 25px;<br>
+        }<br>
+        </p>
+
+    <h1 class="uh1">HTML Text Alignment</h1>
+    <p class="con"> The text-align property <span class="hlt">defines the horizontal text alignment for an HTML element.</span> A text can be left or right aligned, centered or justified.</p>
+    
+    <p class="con"> p {<br>
+    text-align: justify;<br>
+    }<br>
+    </p>
+
+    <h1 class="uh1">HTML Text Indentation</h1>
+        <p class="con">The text-indent property is <span class="hlt">used to specify the indentation of the first line of text.</span></p>
+    
+    <h1 class="uh1">CSS Text Property</h1>
+    <ul class="writing">
+        <li>color</li>
+        <li>text-align</li>
+        <li>text-decoration</li>
+        <li>text-transform</li>
+        <li>text-indent</li>
+    </ul>
+
+    <h1 class="uh1">CSS Font Property</h1>
+    <ul class="writing">
+        <li>font-family</li>
+        <li>font-style</li>
+        <li>font-weight</li>
+        <li>font-size</li>
+    </ul>
+
+    <h1 class="uh1">CSS Border Property</h1>
+    <ul class="writing">
+        <li>border</li>
+        <li>border-width</li>
+        <li>border-style</li>
+        <li>border-color</li>
+        <li>border-radius</li>
+    </ul>
+
+    <h1 class="uh1">CSS Border Property</h1>
+    <ul class="writing">
+        <li>dotted</li>
+        <li>dashed</li>
+        <li>solid</li>
+        <li>double</li>
+        <li>groove</li>
+        <li>ridge</li>
+        <li>inset</li>
+        <li>outset</li>
+        <li>none</li>
+    </ul>
+    <img src="images/border.png" class="internet">
+   
+    <h1 class="uh1">CSS Margins</h1>
+    <p>CSS margins are essential for <span class="hlt">defining the spacing around HTML elements outside their borders.</span> The <span class="hlt">“auto”</span> value allows the browser to automatically calculate the optimal margin, which is especially useful for centering elements. The <span class="hlt">“length”</span> value enables you to set a fixed margin size using units such as pixels (px), points (pt), or centimeters (cm).</li>
+    </p>
+    
+    <p class="con"> p {<br>
+    margin: auto;<br>
+    }<br>
+    </p>
+
+    <h1 class="uh1">CSS Padding</h1>
+        <p class="con">CSS padding is a fundamental aspect of web design that <span class="hlt">allows developers to create space around an element’s content, inside its borders.</span>
+    </p>
+    
+    <p class="con"> p {<br>
+    padding: 20px;<br>
+    }<br>
+    </p>
+
+    <h1 class="uh1">CSS Height/Width</h1>
+        <p class="con">These properties specifically <span class="hlt">control the size of the space inside an element’s padding, border, and margin,</span> allowing developers to dictate how much space the content occupies.</p>
+
+    <h1 class="uh1">CSS Position</h1>
+        <p class="con">It allows us to control the layout of elements and their interaction with surrounding content. There are five primary values for the position property:</p>
+        
+    <ul class="writing">
+        <li>static</li>
+        <li>relative</li>
+        <li>fixed</li>
+        <li>absolute</li>
+        <li>sticky</li>
+    </ul>
+
+    <h1 class="u1">position: static;</h1>
+        <p class="con"> <span class="hlt">By default, all HTML elements have a position value of “static.”</span> This means that the element is positioned according to the normal document flow and does not respond to the properties of top, bottom, left, or right.</p>
+    <pre class="con">
+div.static {
+    position: static;
+    border: 3px solid #73AD21;
+}
+    </pre>
+
+    <h1 class="u1">position: fixed;</h1>
+        <p class="con">When using position: fixed; <span class="hlt">the element is positioned relative to the viewport, which is the visible area of the web page.</span> This means the element remains in a fixed location even when the page is scrolled.</p>
+    <pre class="con">
+div.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid #73AD21;
+}
+    </pre>
+
+    <h1 class="u1">position: absolute;</h1>
+        <p class="con">An element with the style position: <span class="hlt">absolute; is positioned relative to its closest ancestor that has a position other than ‘static’.</span></p>
+
+    <pre class="con">
+div.relative {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #73AD21;
+}
+
+div.absolute {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73AD21;
+}
+    </pre>
+
+    <h1 class="u1">position: sticky;</h1>
+        <p class="con">The position: sticky; property <span class="hlt">is a hybrid positioning option that switches between relative and fixed positioning</span> depending on the user’s scroll position.</p>
+    
+    <pre class="con">
+div.sticky {
+    position: sticky;
+    top: 0;
+    background-color: green;
+    border: 2px solid #4CAF50;
+}
+    </pre>
+
+ <hr />
+ <a href="lessons.html" class="con">BACK TO LESSON PAGE</a>
+ 
+</body>
+</html>

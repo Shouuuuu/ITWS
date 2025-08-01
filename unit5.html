@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>ITWS UNIT 5.1</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="icon1.png">
+  
+</head>
+
+<body>
+<h1 class="ut">UNIT 5.1: INSERTING IMAGES</h1>
+
+<h1 class="uh1"> HTML IMAGES </h1>
+
+<p class="con"> The HTML <span class="hlt">&lt;img&gt;tag is used to embed an image in a web page. The &lt;img&gt; tag is empty, it contains attributes only, and does not have a closing tag.</span> The &lt;img&gt; tag has two required attributes: src and alt. </p>
+
+
+<h1 class="uh1"> HTML IMAGE ATTRIBUTES </h4>
+<ul class="writing">
+<li><span class="hlt">src:</span> specifies the path to the image. </li>
+<li><span class="hlt">alt:</span> specifies an alternate text for the image, if the image for some reason cannot be displayed. </li>
+<li><span class="hlt">title:</span> specifies extra information about an element. The information is most often shown as a tooltip text when the mouse moves over the element. </li>
+</ul>
+<img src = "images/srcimg.png" class="unit5">
+
+<h1 class="uh1"> TYPES OF WEB PAGE IMAGES </h1>
+
+<ul class="writing">
+<li><span class="hlt">GIF:</span> Graphics Interchange Format. It is a bitmap image format that supports both animated and static images. </li>
+<li><span class="hlt">JPEG:</span> Joint Photographic Experts Group. It is a commonly used method of lossy compression for digital images. </li>
+<li> <span class="hlt">PNG:</span> Portable Network Graphics. It is a raster graphics file format that supports lossless data compression. </li>
+<li> <span class="hlt">SVG:</span>Scalable Vector Graphics. It is an XML-based vector image format for two-dimensional graphics with support for interactivity and animation. </li>
+</ul>
+
+<h1 class="uh1">NDERSTANDING ABSOLUTE RELATIVE IMAGE URLS </h1>
+<ul class="writing">
+<li><span class="hlt">Absolute URL:</span> An absolute URL is a complete URL that includes the protocol (http or https), domain name, and path to the image file. </li>
+<img src = "images/absurl.jpg" class="unit5"/>
+
+<li><span class="hlt">Relative URL:</span> A relative URL is a partial URL that does not include the protocol or domain name. It is relative to the current page's location. </li>
+<img src="images/rlturl.jpg" class="unit5"/>
+</ul>
+
+<h1 class="uh1"> IMAGES PLACEMENT AND STYLING </h1>
+<h1 class="u1"> width and height </h1>
+
+<p class="con">The width and height properties are <span class="hlt">used to set the width and height of an image.</span>The values can be set in pixels or as a percentage of the parent element. </p>
+
+<img src = "images/whprop.png" alt="width and height property image" class="unit5"/>
+
+<h1 class="u1"> max-width </h1>
+
+<p class="con"> The max-width property is <span class="hlt">used to set the maximum width of an image.</span> The value can be set in pixels or as a percentage of the parent element. </p>
+
+<img src = "images/mxwid.png" alt="max width property image" class="unit5"/>
+
+<h1 class="u1">display and margin </h1>
+
+<p class="con">The display property is <span class="hlt">used to set the display type of an image.</span> The margin property is <span class="hlt">used to set the margin around an image.</span> The values can be set in pixels or as a percentage of the parent element. </p>
+
+<img src = "images/dmprop.png" alt="display and margin property image" class="unit5"/>
+
+<h1 class="u1"> float </h1>
+
+<p class="con">The float property is <span class="hlt">used to set the float type of an image.</span> The value can be set to left, right, or none. </p>
+
+<img src = "images/flprop.png" alt="float property image" class="unit5"/>
+
+<h1 class="uh1"> CSS Background properties </h1>
+
+<h1 class="u1"> Background-image</h1>
+<p class="con"> The Background-image property <span class="hlt">specifies an image to use as the Background of an element.</span> By default, the image is repeated so it covers the entire element. </p>
+
+<img src = "images/bgimgprop.png" alt="background image property image" class="unit5"/>
+
+<h1 class="u1"> Background-repeat </h1>
+
+<p class="con"> The Background-repeat property <span class="hlt">repeats an image both horizontally and vertically.</span> The value can be horizontally repeated (repeat-x), vertically repeated (repeat-y), or no-repeat. </p>
+
+<img src = "images/bgrprop.png" alt="background repeat property image" class="unit5"/>
+
+<h1 class="u1"> Background-attachment </h1>
+
+<p class="con"> The Background-attachment property <span class="hlt">specifies whether the background image should scroll or be fixed.</span> </p>
+
+<img src = "images/bgattprop.png" alt="background attachment property image" class="unit5"/>
+
+<h1 class="u1"> Background-position</h1>
+
+<p class="con"> The Background-position property <span class="hlt">specifies the position of the background image.</span> The value can be set in pixels or as a percentage. </p>
+
+<img src = "images/bgposprop.png" alt="background position property image" class="unit5"/>
+
+<h1 class="u1"> Background-size </h1>
+
+<p class="con"> The CSS background-size property <span class="hlt">allows you to specify the size of background images.</span> The size can be specified in lenghts, percentage, or by using one of the two keywords: contain or cover.</p>
+
+<img src = "images/bgsizeprop.png" alt="background size property image" class="unit5"/>
+
+<h1 class="u1"> Background </h1>
+
+<p class="con">The CSS background property <span class="hlt">sets all the background properties in one declaration.</span> When using the shorthand property the order of the property values is: </p>
+<ul class="writing">
+<li> background-color </li>
+<li> background-image </li>
+<li> background-repeat </li>
+<li> background-position </li>
+<li> background-attachment </li>
+</ul>
+
+<img src = "images/bgprop.png" alt="background property image" class="unit5"/>
+
+<h1 class="uh1"> HTML Favicon </h1>
+
+<p class="con"> A favicon is <span class="hlt">a small image displayed next to the page title in the browser tab.</span> To add a favicon to your website, <span class="hlt">use the link/ element within the head section of your HTML document. The link/ tag defines the relationship between the current document and an external resource.</span> The link/ element is an empty element; it contains attributes to perform its function. </p>
+
+<h1 class="u1"> link/attributes used to create a favicon </h1>
+ <ul class="writing">
+ <li> <span class="hlt">rel:</span> specifies the relationship between the current document and the linked resource. </li>
+ <li> <span class="hlt">href:</span> specifies the URL of the linked resource. </li>
+ <li> <span class="hlt">type:</span> specifies the media type of the linked resource. </li>
+ </ul>
+ 
+ <img src = "images/fav.png" alt="favicon image" class="unit5"/>
+
+<hr />
+<a href="lessons.html" class="con">BACK TO LESSON PAGE</a>
+
+ </body>
+</head>
+</html>
+
+
+
+

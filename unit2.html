@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>ITWS UNIT 2</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon1.png">
+</head>
+
+<body>
+<h1 class="ut">UNIT 2: HTML FOR CONTENT STRUCTURE</h1>
+
+   <h1 id="1" class="uh1">Web Page Structure</h1>
+
+    <h1 class="u1">HTML Tags</h1>
+    
+    <p class="con">HTML tags are <span class="hlt">keywords (tag names)</span> surrounded by angle brackets like <span class="hlt">&lt;html&gt;</span>. HTML tags normally come in pairs like <span class="hlt">&lt;body&gt; and &lt;/body&gt;</span>. The first tag in a pair is the start tag, the second tag is the end tag.The end tag is written like the start tag, with a slash (/) before the tag name.</p>
+    
+    <p class="con">Start and end tags are also called <span class="hlt">opening and closing tags</span>.The element content is everything inserted between the start and end tags. Some HTML tags have <span class="hlt">empty content or void element (ex. &lt;br /&gt; or &lt;hr /&gt;)</span>. Empty tags are closed in the start tag (ex. &lt;br /&gt;).</p>
+    
+    <img src="images/struc.png" alt="BASIC HTML STRUCTURE" class="struc fade3">
+    
+    <h1 id="2" class="uh1">Basic HTML Tags</h1>
+    <pre class="con">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+
+&lt;head&gt;
+&lt;meta charset="UTF-8"&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+&lt;title&gt;Your Webpage Title&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+&lt;!-- Your content goes here --!&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+    </pre>
+
+    <h1 id="2" class="uh1">Basic HTML Tags</h1>
+    <p class="con">The <span class="hlt">&lt;!DOCTYPE html&gt; declaration specifies the version of HTML used</span> (HTML5 in our case). The <span class="hlt">&lt;html&gt; and &lt;/html&gt; elements are the root elements of an HTML page</span>. They indicate the start and the end of the HTML document. These tags are written after the &lt;!DOCTYPE&gt; declaration. The <span class="hlt">&lt;head&gt; and &lt;/head&gt; elements contain all information about the HTML document.</span> They are written inside the &lt;html&gt; and &lt;/html&gt; tags.</p>
+
+    <p class="con">The <span class="hlt">&lt;title&gt; and &lt;/title&gt; elements specify the title of the document</span>. They are written inside the &lt;head&gt; and &lt;/head&gt; tags. The <span class="hlt">&lt;body&gt; and &lt;/body&gt; elements contain all the visible content within the web page.</span> They are written after the &lt;head&gt; and &lt;/head&gt; tags inside the &lt;html&gt; and &lt;/html&gt; tags. Scroll for more tags.</p>
+    
+    <h1 id="2" class="uh1">Other HTML Tags</h1>
+    
+    <dl>
+        <dt class="dt"><b>&lt;br /&gt; tag.</b></dt>
+        <dd class="con">To direct the browser to move the content <span class="hlt">to the start of a new line, we must use the &lt;br /&gt; or the line-break tag.</span></dd>
+        
+        <dt class="dt"><b>&lt;p&gt; and &lt;/p&gt; tags.</b></dt>
+        <dd class="con">The <span class="hlt">&lt;p&gt; and &lt;/p&gt; or paragraph tags define a paragraph in HTML.</span> By using the paragraph tag pair, the browser places the start of each paragraph on a new line and separates each paragraph with a space.</dd>
+        
+        <dt class="dt"><b>heading tag.</b></dt>
+        <dd class="con">The heading tag defines a <span class="hlt">heading for a specific section in a web page.</span> The size of the heading can be adjusted by using the different heading tags, <span class="hlt">&&lt;h1&gt; to &lt;h6&gt;. &lt;h1&gt; will provide the largest heading size and &lt;h6&gt; will provide the smallest heading size.</span></dd>
+        
+        <dt class="dt"><b>&lt;b&gt; and &lt;/b&gt; tags.</b></dt>
+        <dd class="con">The <span class="hlt">&lt;b&gt; and &lt;/b&gt; or bold tags are used to display specific text using a bold font.</span> When the browser encounters a &lt;b&gt; tag, the browser will start its use of a bold font to display the page text. When the browser later encounters the &lt;/b&gt; tag, it will turn off bolding.</dd>
+        
+        <dt class="dt"><b>&lt;i&gt; and &lt;/i&gt; tags.</b></dt>
+        <dd class="con">The &lt;i&gt; and &lt;/i&gt; or <span class="hlt">italic tags are used to display specific text using an italic font.</span></dd>
+        
+        <dt class="dt"><b>Centering Content</b></dt>
+        <dd class="con">You can use &lt;center&gt; tag <span class="hlt">to put any content in the center of the page or any table cell.</span></dd>
+    </dl>
+    
+    <h1>Other HTML Formatting</h1>
+    <ul class="writing">
+        <li><span class="hlt">Underlined text</span> - &lt;u&gt; and &lt;/u&gt; is use to underline a text.</li>
+        <li><span class="hlt">Strike Text</span> - &lt;del&gt; and &lt;/del&gt; is use to strike through a text.</li>
+        <li><span class="hlt">Superscript</span> Text - &lt;sup&gt; and &lt;/sup&gt; is use to superscript a text.</li>
+        <li><span class="hlt">Subscript text</span> - &lt;sub&gt; and &lt;/sub&gt; is use to subscript a text.</li>
+    </ul>
+    
+    <h1 id="3" class="uh1">Writing and Saving an HTML File</h1>
+    <ul class="writing">
+    <p>Let's try to build our first web page!</p>
+    
+    <li>Open a Text Editor (Notepad) or Source Code Editor (Sublime Text) program.</li>
+    <li>Save the file as .html. (File save as select HTML)</li>
+    <li>Write your HTML codes.</li>
+    <li>Double click on the saved file, and it will be opened in your default browser.</li>
+    </ul>
+
+    <h1 id="4" class="uh1">Using a Browser to View a Web Page</h1>
+    
+    <ul class="writing">
+     <p>Click the images to explore different browsers!</p>
+    <a href="https://www.mozilla.org/en-US/firefox/new/?xv=refresh-new&v=b" target="_blank">
+    <img src="images/moz.jpg" class="img"> </a> <li>Mozilla Firefox</li>
+    <a href="https://www.google.com/chrome/" target="_blank">
+    <img src="images/chro.jpg" class="img"> </a> <li>Google Chrome</li>
+    <a href="https://www.opera.com/" target="_blank">
+    <img src="images/ope.jpg" class="img"> </a> <li>Opera</li>
+    <a href="https://www.apple.com/safari/"  target="_blank">
+    <img src="images/saf.jpg" class="img"> </a> <li>Safari</li>
+    <a href="https://www.microsoft.com/en-us/edge/?cs=3457492030&form=MA13FJ" target="_blank">
+    <img src="images/mic.jpg" class="img"> </a> <li>Microsoft edge</li>
+    <a href="https://brave.com/" target="_blank">
+    <img src="images/brave1.jpeg" class="img"> </a> <li>Brave</li>
+    </ul>
+    
+    <hr/>
+    <a href="lessons.html" class="con">BACK TO LESSON PAGE</a>
+</body>
+</html>
